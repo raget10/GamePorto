@@ -2,3 +2,28 @@ Cara menggunakan git bash
 1. Buat repository dulu 
 2. masuk ke folder yang ingin di upload 
 3. git init untuk masuk ke dalam folder 
+4. git add . untuk membuat git di folder 
+5. git commit -m "keterangan" untuk membuat keterangan dari file yang akan kita upload 
+6. git remote add origin (link git yang akan kita tuju)
+7. git push -u origin master (Untuk push update dari file)
+8. selesai 
+ 
+Untuk clone 
+1. Buka git dan copy "clone with SSH"
+2. Buat folder repo tadi 
+3. buka gitbash
+4. git clone paste link SSH tadi 
+5. Clone berhasil 
+
+Untuk upload project unity
+1. Pastikan masuk kedalam folder project yang ingin di gas 
+2. git init jika folder belum di pernah ada di github
+3. git status untuk mengecek status apakah berhasil atau tidak
+4. Masukkan dulu .gitignore untuk mengupload fie penting penting saja 
+5. git add -A untuk upload file yang telah di saring tadi 
+6. git commit -m "keteranga" untuk merubah sesuai dengan upload terbaru
+7. git branch -M untuk merubah kepemilikan file menjadi main 
+8. git remote add origin git (git remote add origin https://github.com/raget10/Game-balap.git) sesuai dengan contoh
+9. git push -u origin main untuk upload terakhir
+
+ 
