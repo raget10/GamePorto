@@ -1,0 +1,4 @@
+Cara menggunakan git bash 
+1. Buat repository dulu 
+2. masuk ke folder yang ingin di upload 
+3. git init untuk masuk ke dalam folder 
